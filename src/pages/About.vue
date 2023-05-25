@@ -20,7 +20,7 @@ const { tracker } = useTracker();
       renew the domain name, if you want to support my work, and encourage me to add more tools, please consider
       supporting by
       <c-link
-        href="https://www.buymeacoffee.com/cthmsst"
+        href="http://laughing66.top"
         rel="noopener"
         target="_blank"
         @click="() => tracker.trackEvent({ eventName: 'Support button clicked' })"

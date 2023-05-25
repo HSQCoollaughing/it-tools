@@ -53,8 +53,8 @@ const tools = computed<ToolCategory[]>(() => [
           <div>
             IT-Tools
 
-            <c-link target="_blank" rel="noopener" :href="`https://github.com/CorentinTh/it-tools/tree/v${version}`">
-              v{{ version }}
+            <c-link target="_blank" rel="noopener" :href="`http://laughing66.top`">
+              laughing66.top
             </c-link>
 
             <template v-if="commitSha && commitSha.length > 0">
@@ -63,15 +63,15 @@ const tools = computed<ToolCategory[]>(() => [
                 target="_blank"
                 rel="noopener"
                 type="primary"
-                :href="`https://github.com/CorentinTh/it-tools/tree/${commitSha}`"
+                :href="`http://laughing66.top`"
               >
-                {{ commitSha }}
+              解忧杂货铺
               </c-link>
             </template>
           </div>
           <div>
             © {{ new Date().getFullYear() }}
-            <c-link target="_blank" rel="noopener" href="https://github.com/CorentinTh"> Corentin Thomasset </c-link>
+            <c-link target="_blank" rel="noopener" href="http://laughing66.top">解忧杂货铺 </c-link>
           </div>
         </div>
       </div>
@@ -106,7 +106,7 @@ const tools = computed<ToolCategory[]>(() => [
           <template #trigger>
             <c-button
               round
-              href="https://www.buymeacoffee.com/cthmsst"
+              href="http://laughing66.top"
               rel="noopener"
               target="_blank"
               class="support-button"

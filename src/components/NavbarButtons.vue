@@ -1,5 +1,5 @@
 <template>
-  <n-tooltip trigger="hover">
+  <!-- <n-tooltip trigger="hover">
     <template #trigger>
       <c-button
         circle
@@ -13,9 +13,9 @@
       </c-button>
     </template>
     Github repository
-  </n-tooltip>
+  </n-tooltip> -->
 
-  <n-tooltip trigger="hover">
+  <!-- <n-tooltip trigger="hover">
     <template #trigger>
       <c-button
         circle
@@ -29,16 +29,16 @@
       </c-button>
     </template>
     IT Tools' Twitter account
-  </n-tooltip>
+  </n-tooltip> -->
 
   <n-tooltip trigger="hover">
     <template #trigger>
-      <c-button circle variant="text" to="/about" aria-label="About">
-        <n-icon size="25" :component="InfoCircle" />
-      </c-button>
+      <img style="width: 30px; height: 30px; border-radius: 50%;" src="http://laughing66.top/upload/2023/04/11680521020_.pic.jpg"/>
+
     </template>
-    About
+    王铁丸
   </n-tooltip>
+
   <n-tooltip trigger="hover">
     <template #trigger>
       <c-button circle variant="text" aria-label="Toggle dark/light mode" @click="toggleDarkTheme">
